@@ -4,77 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>TourEth: Cultural Sites</title>
 </head>
 <body>
 <!------------------------------------------------------------------------------------------------->
-    <header>
-        <img src="images/logo.png" alt="here is the logo of the website" width="100px">
-        <nav class = 'mainNav'>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="naturalFeatures.html">Natural Features</a></li>
+<header>
+    <img class="headerLogo" src="images/logo.png" alt="here is the logo of the website">
+    <nav class = 'mainNav'>
+        <ul class = 'nav'>
+            <li class = 'navList'><a href="index.html">Home</a></li>
+            <li class = 'navList'><a href="about.html">About</a></li>
+            <li class = 'navList'><a href="naturalFeatures.html">Natural Features</a></li>
 
-                <li><a href="culturalSites.html">Cultural Sites</a></li>
-                <li><a href="historicalSites.html">Historical Sites</a></li>
-                <li><a href="religiousHeritages.html">Religious Heritages</a></li>
+            <li class = 'navList' ><a id="active" href="culturalSites.html">Cultural Sites</a></li>
+            <li class = 'navList'><a href="historicalSites.html">Historical Sites</a></li>
+            <li class = 'navList'><a href="religiousHeritages.html">Religious Heritages</a></li>
 
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+            <li class = 'navList'><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 <!------------------------------------------------------------------------------------------------->
-<section>
-    <h2>The Hamar People</h2>
-    <table>
-        <tr>
-            <td>Location</td>
-            <td>South Omo, South Nations Nationalities and Peoples, Ethiopia</td>
-        </tr>
-        <tr>
-            <td>Coordinates</td>
-            <td>5°30'N 36°30'E</td>
-        </tr>
-        <tr>
-            <td>Climate</td>
-            <td>arid</td>
-        </tr>
-    </table>
-    <img src="images/hamar.jpg" alt="a picture of the hamar people" width="320px">
-    <p>The Hamar are known for their unique custom of "bull jumping," which initiates a boy into manhood. 
-        First, female relatives dance and invite whipping from men who have recently been initiated; this 
-        shows their support of the initiate, and their scars give them a say on who they marry.
-    </p>
+
+<!------------------------------------------Hamar People------------------------------------------------------->
+<section class="mainSection">
+    <div class="mainDiv">
+        <h2>The Hamar People</h2>
+        <img class="profile" src="images/hamar.jpg" alt="a picture of the hamar people">
+
+    <div class="placeDescription"> 
+        <table>
+            <tr>
+                <td>Location</td>
+                <td>South Omo, <abbr title="South Nations Nationalities and Peoples">SNNPR</abbr></td>
+            </tr>
+            <tr>
+                <td>Coordinates</td>
+                <td>5°30'N 36°30'E</td>
+            </tr>
+            <tr>
+                <td>Climate</td>
+                <td>arid</td>
+            </tr>
+        </table>
     
-    <label for="audio">Here's a traditional Hamar Song:</label>
-    <audio controls>   
+        <p>The Hamar are known for their unique custom of "bull jumping," which initiates a boy into manhood. 
+            First, female relatives dance and invite whipping from men who have recently been initiated; this 
+            shows their support of the initiate, and their scars give them a say on who they marry.
+        </p></div>
+    <div class="history" id="audioDiv">
+        <label for="audio">Here's a traditional Hamar Song:</label>
+        <audio controls>   
             <source src="audios/Hamar.mp3" type="audio/mpeg">
-    </audio>
-    <h5><br>The popular traditional evangadi dance of the hamar people:</h5>
-
-    <p>Evangadi is a night time dance ceremony. Usually it happens after harvesting their crops which, 
-        represent their happiness. During night they can be able to see the full moon. This show's peace, 
-        love and unity. And also it is the time that all young men and women come together for relationship.</p>
-    <p><br>Click <a href="https://en.wikipedia.org/" target="_blank">here</a> to learn more about the hamar people.</p>
-    <video width="320" height="240" controls>
-        <source src="videos/evangadi.mp4" type="video/mp4">
+        </audio>
+    </div>
         
-    </video>
-    
+    <div><h5><br>The popular traditional evangadi dance of the hamar people:</h5>
+        <video width="320" height="240" controls>
+            <source src="videos/evangadi.mp4" type="video/mp4">
+            
+        </video>
+    </div>
+        <div> <p>Evangadi is a night time dance ceremony. Usually it happens after harvesting their crops which, 
+            represent their happiness. During night they can be able to see the full moon. This show's peace, 
+            love and unity. And also it is the time that all young men and women come together for relationship.</p>
+        <p><br>Click <a href="https://en.wikipedia.org/" target="_blank">here</a> to learn more about the hamar people.</p></div>
 
+    
+</div>
 </section>
+
 
 <!------------------------------------------------------------------------------------------------->
 <footer>
-    <img src="images/copyright.png" width="10px" alt="copyright icon">
-    <label>2022</label>
-    <label>TourEth. All rights reserved</label>
-    <a href="https://www.youtube.com/" target="_blank"><img src="images/yt.png" alt="here is a youtube icon" width="20px"></a>
-    <a href="https://www.facebook.com/" target="_blank"><img src="images/fb.png" alt="here is a facebook icon" width="20px"></a>
-    <a href="https://twitter.com/" target="_blank"><img src="images/twtr.png" alt="here is a twitter icon" width="20px"></a>
-    <a href="https://www.instagram.com/" target="_blank"><img src="images/insta.png" alt="here is an instagram icon" width="20px"></a>
-    <label>follow us</label>
+    <div class="footerElement"> <img src="images/copyright.png" width="10px" alt="copyright icon">
+        <label>2022</label></div>
+         <label>TourEth. All rights reserved</label></div>
+         <div class="footerElement">
+        <div id="social"> <a href="https://www.youtube.com/" target="_blank"><img src="images/yt.png" alt="here is a youtube icon" width="20px"></a>
+        <a href="https://www.facebook.com/" target="_blank"><img src="images/fb.png" alt="here is a facebook icon" width="20px"></a>
+        <a href="https://twitter.com/" target="_blank"><img src="images/twtr.png" alt="here is a twitter icon" width="20px"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="images/insta.png" alt="here is an instagram icon" width="20px"></a></div><label>follow us</label></div>
+        <div class="footerElement"> </div>
 </footer>
 
 </body>
