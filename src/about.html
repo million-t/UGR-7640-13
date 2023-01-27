@@ -4,79 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>TourEth: About</title>
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="here is the logo of the website" width="100px">
-        <nav class = 'mainNav'>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="naturalFeatures.html">Natural Features</a></li>
+        
+        <nav class = 'navbar navbar-expand-sm bg-light justify-content-center'>
+            <img class="navbar-brand" style="max-width: 70px;" src="images/logo.png" alt="here is the logo of the website">
+            <ul class = 'navbar-nav'>
+                <li class = 'nav-item'><a class="nav-link" href="index.html">Home</a></li>
+                <li class = 'nav-item'><a class="nav-link active" href="about.html">About</a></li>
+                <li class = 'nav-item'><a class="nav-link" href="naturalFeatures.html">Natural Features</a></li>
 
-                <li><a href="culturalSites.html">Cultural Sites</a></li>
-                <li><a href="historicalSites.html">Historical Sites</a></li>
-                <li><a href="religiousHeritages.html">Religious Heritages</a></li>
+                <li class = 'nav-item'><a class="nav-link" href="culturalSites.html">Cultural Sites</a></li>
+                <li class = 'nav-item'><a class="nav-link" href="historicalSites.html">Historical Sites</a></li>
+                <li class = 'nav-item' ><a class="nav-link" href="religiousHeritages.html">Religious Heritages</a></li>
 
-                <li><a href="contact.html">Contact</a></li>
+                <li class = 'nav-item'><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 <!---------------------------------------------------------------------------------------------------------------->
-<h1>About TourEth</h1>
-<h2>Who We are</h2>
+<div class="container px-lg-5">
+<h1 class="text-center m-3">About TourEth</h1>
+<h2 class="">Who We are</h2>
 <p>TourEth is a site that provides the access to preview the countless and amazing tourist destination sites in Ethiopia. 
     This site is developed and updated by a 3rd year Software Engineering Student at Addis Ababa Institute of Technology
      as part of a course project. Even though the site startd as a web projcet idea, the current main goal of TourEth is
     to widen the popularity of Ethiopia in the eye of tourists</p>
+<div class="d-lg-flex flex-row-reverse">
+<div class=" border-4 shadow rounded-4 mx-2 p-3 px-5">
+    <img class="img-fluid d-block mx-auto" src="images/logo.png" alt="here is the logo of the website" width="100px">
+    
+    <table class="table">
+        <tr>
+            <td><img src="images/yt.png" alt="here is a youtube icon" width="20px"></td>
+            <td><a class="text-decoration-none text-primary" href="https://www.youtube.com/" target="_blank">Subscribe to our YouTube Channel</a></td>
+        </tr>
+        <tr>
+            <td><img src="images/fb.png" alt="here is a facebook icon" width="20px"></td>
+            <td><a class="text-decoration-none text-primary" href="https://www.facebook.com/" target="_blank">Follow TourEth on Facebook</a></td>
+        </tr>
+        <tr>
+            <td><img src="images/tg.png" alt="here is a telegram icon" width="20px"></td>
+            <td><a class="text-decoration-none text-primary" href="https://telegram.org/" target="_blank">Follow TourEth on Telegram</a></td>
+        </tr>
+        <tr>
+            <td><img src="images/twtr.png" alt="here is a twitter icon" width="20px"></td>
+            <td><a class="text-decoration-none text-primary" href="https://twitter.com/" target="_blank">Follow @TourEth on Twitter</a></td>
+        </tr>
+    </table>
+
+</div>
+<div class="col m-2">
 <h2>History of TourEth</h2>
 <p>The idea of the website was concieved when the author was assigned to prepare a design for a web project.
     TourEth is currently in its early stage of development. Despite its infancy TourEth is showing early prospects of influence
 on exposing the heritages that the contry posseses, which was mostly not known by Tourists and the international community, 
 even most heritages are taken for granted by people residing in the country.</p>
-<div>
-    <img src="images/logo.png" alt="here is the logo of the website" width="100px">
-    
-    <table>
-        <tr>
-            <td><img src="images/yt.png" alt="here is a youtube icon" width="20px"></td>
-            <td><a href="https://www.youtube.com/" target="_blank">Subscribe to our YouTube Channel</a></td>
-        </tr>
-        <tr>
-            <td><img src="images/fb.png" alt="here is a facebook icon" width="20px"></td>
-            <td><a href="https://www.facebook.com/" target="_blank">Follow TourEth on Facebook</a></td>
-        </tr>
-        <tr>
-            <td><img src="images/tg.png" alt="here is a telegram icon" width="20px"></td>
-            <td><a href="https://telegram.org/" target="_blank">Follow TourEth on Telegram</a></td>
-        </tr>
-        <tr>
-            <td><img src="images/twtr.png" alt="here is a twitter icon" width="20px"></td>
-            <td><a href="https://twitter.com/" target="_blank">Follow @TourEth on Twitter</a></td>
-
-        </tr>
-    </table>
-</div>
+</div></div>
 <h2>Authors</h2>
-<table>
+<table class="table table-striped w-50">
     <tr>
-        <td>Milion Tolessa</td>
+        <td>Million Tolessa</td>
         <td>Developer</td>
-        <td><a href="mailto: milliontolessa@gmail.com">milliontolessa@gmail.com</a></td>
+        <td><a class="text-decoration-none text-primary"  href="mailto: mt@gmail.com">mt@gmail.com</a></td>
     </tr>
 </table>
+
+</div>
 <!---------------------------------------------------------------------------------------------------------------->
-    <footer>
-        <img src="images/copyright.png" width="10px" alt="copyright icon">
-        <label>2022</label>
-        <label>TourEth. All rights reserved</label>
-        <a href="https://www.youtube.com/" target="_blank"><img src="images/yt.png" alt="here is a youtube icon" width="20px"></a>
-        <a href="https://www.facebook.com/" target="_blank"><img src="images/fb.png" alt="here is a facebook icon" width="20px"></a>
-        <a href="https://twitter.com/" target="_blank"><img src="images/twtr.png" alt="here is a twitter icon" width="20px"></a>
-        <a href="https://www.instagram.com/" target="_blank"><img src="images/insta.png" alt="here is an instagram icon" width="20px"></a>
-        <label>follow us</label>
-    </footer>
+<footer class=" w-100">
+    <div class="container-fluid bg-secondary bg-opacity-25 text-center py-4">
+    <div class="container d-flex justify-content-center flex-wrap"> 
+        <img src="images/copyright.png" width="14px" height="14px" alt="copyright icon">
+        <label>2022  -</label>
+        <label>TourEth.  All rights reserved</label>
+        <div class=" px-2">
+        <div id="social"> <a href="https://www.youtube.com/" target="_blank"><img src="images/yt.png" alt="here is a youtube icon" width="20px"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/fb.png" alt="here is a facebook icon" width="20px"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="images/twtr.png" alt="here is a twitter icon" width="20px"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="images/insta.png" alt="here is an instagram icon" width="20px"></a>
+        </div><label>follow us</label>
+        </div>
+    </div>
+    </div>
+</footer>
     
 </body>
 </html>
